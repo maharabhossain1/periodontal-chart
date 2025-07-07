@@ -22,11 +22,10 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 py-4">
       <div className="max-w-7xl mx-auto px-4 py-6">
         {/* Main Chart */}
-        test
-        {/* <PeriodontalChart
+        <PeriodontalChart
           onChange={handleChartChange}
           onSubmit={handleSubmit}
-        /> */}
+        />
       </div>
     </div>
   );
